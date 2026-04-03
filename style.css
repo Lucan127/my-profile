@@ -1,5 +1,6 @@
+/* GLOBAL */
 body {
-  background-color: #1e5eff;
+  background-color: #eff6ff; /* BLEU TRES CLAIR */
   color: #1f2937;
   font-family: Arial, sans-serif;
   font-size: 17px;
@@ -7,20 +8,23 @@ body {
   margin: 0;
 }
 
+/* CONTAINER */
 .container {
   width: 700px;
   margin: 40px auto;
 }
 
+/* CARDS */
 .card-white {
   background: white;
   padding: 40px;
   margin: 24px 0;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
   border-radius: 8px;
   text-align: center;
 }
 
+/* TEXT */
 h1 {
   color: #16324f;
   font-size: 42px;
@@ -28,13 +32,14 @@ h1 {
 
 h2 {
   color: #2f5bea;
-  font-size: 32px;
+  font-size: 28px;
 }
 
 p {
   margin-bottom: 30px;
 }
 
+/* IMAGE */
 .img-circle {
   width: 160px;
   height: 210px;
@@ -42,6 +47,7 @@ p {
   border-radius: 50%;
 }
 
+/* BUTTON */
 .btn-blue {
   background-color: #2f5bea;
   color: white;
@@ -56,6 +62,7 @@ p {
   background-color: #1d47cf;
 }
 
+/* SOCIAL */
 .list-inline {
   list-style: none;
   padding-left: 0;
